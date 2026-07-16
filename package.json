@@ -9,6 +9,7 @@
   "devDependencies": {
     "@babel/standalone": "^7.26.9",
     "@biomejs/biome": "^1.9.4",
+    "@resvg/resvg-wasm": "^2.6.2",
     "@tscircuit/check-shorts": "https://jscdn.tscircuit.com/@tscircuit/check-shorts/0.0.12.tgz",
     "@tscircuit/circuit-json-placement-analysis": "^0.0.6",
     "@tscircuit/circuit-json-routing-analysis": "^0.0.6",
@@ -117,5 +118,8 @@
     "cli": "bun ./cli/main.ts",
     "pkg-pr-new-release": "bunx pkg-pr-new publish --comment=off --peerDeps"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "circuit-json-to-gltf": "github:tscircuit/circuit-json-to-gltf#agent/render-jscad-cad-models"
+  }
 }

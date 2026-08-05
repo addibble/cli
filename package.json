@@ -120,6 +120,6 @@
   },
   "type": "module",
   "dependencies": {
-    "circuit-json-to-gltf": "github:tscircuit/circuit-json-to-gltf#agent/render-jscad-cad-models"
+    "circuit-json-to-gltf": "^0.0.113"
   }
 }
